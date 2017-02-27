@@ -4,4 +4,5 @@ $(document).ready(function(){
         $(this).toggleClass("active");
     });
 });
+console.log("mamieo");
 </script>
