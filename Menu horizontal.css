@@ -1,0 +1,20 @@
+/************ Menu horizontal ************/
+.woocommerce-account .woocommerce-MyAccount-content,
+.woocommerce-account .woocommerce-MyAccount-navigation {
+	float: none;
+	width: 100%;
+}
+
+.woocommerce-MyAccount-navigation ul {
+	list-style: none;
+	padding: 15px 0;
+}
+
+.woocommerce-MyAccount-navigation ul li {
+	display: inline-block;
+	margin-right: 30px;
+}
+
+.woocommerce form .form-row label + br {
+	display: none;
+}

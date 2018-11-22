@@ -1,0 +1,179 @@
+<style>
+
+
+/* ******************* login page ********************* */
+.woocommerce {
+    text-align: center;
+}
+
+
+.woocommerce-form-login {
+    max-width: 680px;
+    margin: auto !important;
+}
+
+.woocommerce form .form-row input.input-text, 
+.woocommerce form .form-row textarea {
+    height: 40px;
+    box-shadow: none;
+    border: 1px solid #ddd;
+}
+
+
+.woocommerce-account .woocommerce input.button {
+    -moz-transition: all .3s linear .01s;
+    -webkit-transition: all .3s linear .01s;
+    -o-transition: all .3s linear .01s;
+    transition: all .3s linear .01s;
+}
+
+.woocommerce-account .woocommerce input.button {
+    font-size: 15px;
+    padding: 14px 40px;
+    margin-top: 10px;
+    border-color: #e4002b !important;
+    background-color: #e4002b !important;
+    color: #fff !important;
+    text-shadow: none;
+    border-radius: 0 !important;
+}
+
+.woocommerce-account .woocommerce input.button:hover {
+    background-color: #d00027 !important;
+    color: #fff;
+}
+
+
+/* ******************* my account page ********************* */
+.logged-in .woocommerce {
+    text-align: left;
+}
+
+
+.woocommerce-account .content h1 {
+    display: none;
+}
+
+.woocommerce-account .woocommerce form .form-row label + br {
+    display: none;
+}
+
+.woocommerce-account .woocommerce input.button {
+    font-size: 15px;
+    padding: 14px 40px;
+}
+
+
+.woocommerce-account nav.woocommerce-MyAccount-navigation ul li a {
+    display: inline-block;
+    border: 0;
+    border-bottom: 1px solid #ECECEC;
+    border-radius: 0;
+    padding: 14px 15px 12px 35px;
+    text-decoration: none;
+    width: 100%;
+    color: #515151;
+}
+.woocommerce-account nav.woocommerce-MyAccount-navigation ul li:first-child a {
+    border-top: 1px solid #ECECEC;
+}
+
+.woocommerce-account nav.woocommerce-MyAccount-navigation ul li {
+    display: block;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+.woocommerce-account nav.woocommerce-MyAccount-navigation ul {
+    padding: 0;
+    list-style: none;
+}
+.woocommerce-account .woocommerce-MyAccount-navigation {
+    float: left !important;
+    width: 26% !important;
+}
+
+.woocommerce-account .woocommerce-MyAccount-content {
+    float: right !important;
+    width: 68% !important;
+}
+
+.woocommerce-account nav.woocommerce-MyAccount-navigation ul li.is-active a,
+.woocommerce-account nav.woocommerce-MyAccount-navigation ul li a:hover, 
+.woocommerce-account nav.woocommerce-MyAccount-navigation ul li a:focus, 
+.woocommerce-account nav.woocommerce-MyAccount-navigation ul li a:active {
+    background-color: #000000;
+    color: #fff !important;
+    font-weight: 400;
+}
+.woocommerce-account.logged-in .content {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.woocommerce-account .woocommerce-error {
+    width: 100%;
+    margin: 0px auto 28px;
+    z-index: 999;
+    margin-bottom: 120px;
+}
+
+@media (max-width: 991px) {
+    .woocommerce-account .woocommerce form.login {
+        width: 70%;
+        margin-top: 50px;
+        padding: 50px 45px;
+        margin-bottom: 50px;
+    }
+    .woocommerce-account .woocommerce form.login::before {
+        margin-bottom: 15px;
+    }
+    .woocommerce-LostPassword.lost_password {
+        position: absolute;
+        right: 50px;
+        bottom: 50px;
+        font-weight: 400;
+    }
+    .woocommerce-account nav.woocommerce-MyAccount-navigation ul li a {
+        border-bottom: 1px solid #ECECEC;
+        border-radius: 0;
+        padding: 10px 15px 12px;
+    }
+    .woocommerce-account .woocommerce-error {
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .woocommerce-account .woocommerce form.login {
+        width: 100%;
+        max-width: 500px;
+        margin-top: 20px;
+        padding: 25px;
+        margin-bottom: 20px;
+    }
+    .woocommerce-account .woocommerce form.login::before {
+        margin-bottom: 25px;
+    }
+    .woocommerce-account.logged-in .content {
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    
+    .woocommerce-account .woocommerce-MyAccount-navigation {
+        margin-bottom: 40px;
+    }
+    .woocommerce-account .woocommerce-MyAccount-content,
+    .woocommerce-account .woocommerce-MyAccount-navigation {
+        float: none !important;
+        width: 100% !important;
+    }
+    .woocommerce-LostPassword.lost_password {
+        position: relative;
+        right: 0;
+        bottom: 0;
+        font-weight: 400;
+        margin-top: 10px;
+    }
+}
+
+</style>

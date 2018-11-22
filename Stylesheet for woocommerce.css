@@ -1,0 +1,284 @@
+<style>
+.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 15px 30px !important;
+}
+
+.woocommerce div.product .product_title {
+    color: #000000;
+    font-size: 38px;
+    font-weight: bold;
+    line-height: 1.4;
+    margin-top: 20px;
+}
+.woocommerce .quantity .qty {
+    border-radius: 50px;
+    border: 1px solid #6666;
+    box-shadow: none;
+    padding: 5px 5px;
+    width: 80px;
+    margin-top: 8px;
+    margin-right: 12px;
+}
+
+.woocommerce .button {
+    -moz-transition: all .3s linear .01s;
+    -webkit-transition: all .3s linear .01s;
+    -o-transition: all .3s linear .01s;
+    transition: all .3s linear .01s;
+}
+.woocommerce-page table.cart td.actions .coupon input.input-text {
+    height: 52px;
+    width: 200px;
+    padding-left: 10px !important;
+}
+.woocommerce .button  {
+    border-color: #9f0000 !important;
+    background-color: #9f0000 !important;
+    color: #fff !important;
+    text-shadow: none;
+    border-radius: 0 !important;
+}
+
+.woocommerce .button:hover {
+    background-color: #8b0000 !important;
+    color: #fff;
+}
+.btn-primary:hover, .btn-primary:active, 
+.btn-primary.active, .btn-primary.disabled, 
+.btn-primary[disabled] {
+    background-color: #9f0000;
+    border-color: #9f0000;
+}
+
+.woocommerce fieldset {
+    margin-top: 20px;
+}
+.woocommerce fieldset legend {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+
+div[role="complementary"] {
+    width: 25%;
+}
+
+div[role="complementary"] .inner > .widget:first-child {
+    background: #f7f7f7 none repeat scroll 0 0;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+div[role="complementary"] .inner > .widget:first-child h3 {
+    color: #9f0000;
+    font-size: 36px;
+    text-transform: none;
+}
+
+div[role="complementary"] .inner div > div, div[role="complementary"] .inner div > p {
+    margin: 0;
+}
+
+div[role="complementary"] .widget-title::after, div[role="complementary"] h3::after {
+    display: none;
+}
+
+div[role="complementary"] .inner > .widget:first-child .total {
+    border-top: 1px solid #fff;
+    color: #9f0000;
+    margin-top: 30px;
+    padding-top: 10px;
+}
+
+div[role="complementary"] .inner > .widget:first-child .buttons {
+    margin-top: 10px;
+}
+
+div[role="complementary"] .inner > .widget:first-child .button {
+    display: block !important;
+    float: left;
+    padding: 10px 15px !important;
+    text-align: center;
+    width: 45%;
+    border: 2px solid #9f0000 !important;
+}
+
+div[role="complementary"] .inner > .widget:first-child .button + .button {
+    margin-left: 5%;
+}
+
+div[role="complementary"] .inner > .widget:first-child .wc-forward:first-child {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    color: #9f0000;
+}
+
+div[role="complementary"] .inner .menu-woocommerce-container i {
+    display: none;
+}
+
+div[role="complementary"] .inner .menu-woocommerce-container li {
+    border-bottom: 1px solid #f7f7f7;
+    margin: 10px 0;
+}
+
+div[role="complementary"] .inner .menu-woocommerce-container a {
+    font-family: "Roboto Slab",Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    margin: 0;
+}
+
+.single-product div[role="complementary"] {
+    display: none;
+}
+.single-product .content > article {
+    width: 100%;
+    left: 0;
+}
+
+.woocommerce form .form-row input.input-text, .woocommerce form .form-row textarea {
+    background: #fbfbfc none repeat scroll 0 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    padding: 5px 4px;
+    min-height: 34px;
+}
+.woocommerce fieldset legend {
+    font-size: 14px;
+}
+.woocommerce .sku_wrapper {
+    display: none;
+}
+
+.woocommerce div.product .out-of-stock {
+    display: none;
+}
+
+.woocommerce-order-received article {
+    left: 0;
+    width: 100%;
+}
+
+.woocommerce-order-received div[role="complementary"] {
+    display: none;
+}
+
+
+.woocommerce-order-received .gform_wrapper .top_label input.small {
+    width: 100%;
+}
+
+.woocommerce-order-received  .order_details .gform_body li {
+    border-right: 0 none;
+    margin-right: 0;
+    width: 100%;
+}
+
+.woocommerce-order-received .gfield_description {
+    font-size: 15.45px;
+    line-height: 24px;
+    text-transform: none;
+}
+
+.woocommerce-order-received .gform_wrapper .top_label .gfield_label {
+    font-size: 19px;
+    text-transform: none;
+}
+
+.woocommerce div.product form.cart .variations label {
+    color: #333;
+    font-size: 19px;
+    font-weight: normal;
+    line-height: 38px;
+}
+
+.woocommerce div.product form.cart .reset_variations {
+    clear: both;
+    display: block;
+}
+
+.woocommerce-LoopProduct-link > p {
+    display: none;
+}
+
+.upsells .woocommerce-LoopProduct-link > p {
+    display: block;
+}
+
+
+/***************Checkout Page ***************/
+
+.woocommerce > .checkout #customer_details > div {
+    width: 100%;
+}
+.woocommerce > .checkout #customer_details > div + div {
+    border-bottom: 1px dashed #ccc;
+    border-top: 1px dashed #ccc;
+    margin-bottom: 50px;
+    margin-top: 60px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.woocommerce > .checkout h3.form-row > p {
+    color: #666;
+    font-family: "Roboto Condensed",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+/************ Checkout Page ************/
+
+.woocommerce .checkout table tfoot > tr:nth-child(1), 
+.woocommerce .checkout table tfoot > tr:nth-child(3), 
+.woocommerce .checkout table tfoot > tr:nth-child(4) {
+    display: none;
+}
+.woocommerce > .checkout #customer_details > div + div > .woocommerce-shipping-fields > h3:first-child {
+    display: none;
+}
+
+
+/************ Menu horizontal ************/
+.woocommerce-account .woocommerce-MyAccount-content,
+.woocommerce-account .woocommerce-MyAccount-navigation {
+    float: none;
+    width: 100%;
+}
+
+.woocommerce-MyAccount-navigation ul {
+    list-style: none;
+    padding: 15px 0;
+}
+
+.woocommerce-MyAccount-navigation ul li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.woocommerce form .form-row label + br {
+    display: none;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+div[role="complementary"] .inner > .widget:first-child .button {
+    margin-bottom: 10px;
+    margin-left: 0 !important;
+    width: 100%;
+}
+}
+
+@media  (max-width: 991px) {
+div[role="complementary"] {
+    width: 30%;
+}
+}
+
+@media (max-width: 767px) {
+div[role="complementary"] {
+    width: 100%;
+}
+}
+</style>
