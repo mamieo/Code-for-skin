@@ -1,0 +1,12 @@
+.dropdown-submenu > .dropdown-menu {
+	margin-top: 0;
+}
+
+.active-dropdown {
+	background: none repeat scroll 0 0 rgba(135,168,207,0.8);
+	color: @lightColor !important;
+	.caret{
+     border-top-color: @lightColor !important;
+     border-bottom-color: @lightColor !important;
+  }  
+}

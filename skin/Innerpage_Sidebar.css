@@ -1,0 +1,152 @@
+<style>
+/* sidebar */
+div[role="complementary"]{
+    width: 20%;
+}
+
+div[role="complementary"] .inner {
+    border: 0 none;
+    border-radius: 0;
+}
+
+div[role="complementary"] .widget-title{
+    font-size: 18px;
+}
+
+div[role="complementary"] aside > h3:hover, 
+div[role="complementary"] div > h3:hover {
+	background: transparent;
+}
+
+
+
+div[role="complementary"] aside > h3, 
+div[role="complementary"] div > h3 {
+    background-color: transparent;
+    border-bottom: 0 none;
+    border-top: 0 none;
+    padding: 0;
+    line-height:1.4;
+}
+
+div[role="complementary"] aside > .nav-tabs, 
+div[role="complementary"] div > ul {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    border: 0;
+}
+
+div[role="complementary"] > .inner > .search-widget:first-child {
+	border: ;
+	background: transparent;
+	padding: 10px 0;
+}
+
+.sidebar-content .nav.nav-tabs.nav-stacked a {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 0 none;
+    padding: 7px 0;
+    font-size: 14px;
+}
+
+div[role="complementary"] div ul {
+    padding-left: 0;
+}
+
+div[role="complementary"] .inner ul ul {
+    font-size: 12px;
+    margin-left: 30px;
+    list-style: outside none none;
+}
+
+div[role="complementary"] .inner ul ul li a {
+    border-top: 0 none !important;
+    display: inline;
+    color: #666;
+}
+
+div[role="complementary"] .inner ul ul li a::before {
+    content: "";
+    display: block;
+    font-family: fontawesome;
+    height: 0;
+    left: -1em;
+    position: relative;
+    width: 0;
+}
+
+div[role="complementary"] .inner ul ul li {
+    margin: 5px 0;
+    overflow: visible;
+}
+
+div[role="complementary"] .widget-title::after, 
+div[role="complementary"] h3::after {
+    background: #003e79 none repeat scroll 0 0;
+    content: "";
+    display: block;
+    height: 1px;
+    margin-top: 14px;
+    width: 26px;
+}
+
+div[role="complementary"] .widget-title {
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 7px;
+}
+
+div[role="complementary"] .inner .widget .text-center {
+    text-align: left !important;
+}
+
+div[role="complementary"] .current-page {
+    color: #003e79;
+}
+
+div[role="complementary"] .product-categories {
+    font-size: 12px;
+    list-style: outside none none;
+    margin-top: 20px;
+    padding: 0;
+}
+
+div[role="complementary"] .well {
+    background-color: #f2f2f2;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.blog div[role="complementary"] div > ul > li {
+	border: 0;
+	border-bottom: 0;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	margin: 0;
+	padding: 6px 0px;
+}
+
+.blog  div[role="complementary"] div > ul > li:hover {
+	background-color: transparent;
+	border-top: 1px !important;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+@media  (max-width: 991px) {
+div[role="complementary"] {
+    width: 30%;
+}
+}
+@media (max-width: 767px) {
+div[role="complementary"] {
+    width: 100%;
+}
+}
+</style>

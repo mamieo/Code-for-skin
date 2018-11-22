@@ -1,0 +1,13 @@
+
+.check-service {
+	list-style: none;
+	padding-left: 25px;
+}
+.check-service > li::before {
+	content: '\f00c';
+	font-family: fontawesome;
+	list-style: none;
+	margin-left: -25px !important;
+	margin-right: 10px !important;
+	left: 0;
+}

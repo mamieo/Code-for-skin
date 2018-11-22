@@ -1,0 +1,100 @@
+<a href="#">
+<div class="hover-effect service06">
+<div class="caption">
+<h3 class="font-28 accent4"><strong>FREE Kids Vitamins</strong></h3>
+<p class="font-16 accent4">Absolutely no purchase necessary. Monthly multivitamins for youngsters ages 5-12.</p>
+<span class="btn btn-primary btn-lg">Shop online</span>
+</div>
+<div class="caption-bg"></div>
+</div>
+</a>
+
+
+.hp-service .hover-effect {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	overflow: hidden;
+}
+
+
+.hover-effect .caption,
+.hover-effect .caption-bg,
+.hover-effect .caption p,
+.hover-effect .caption span {
+	-webkit-transition: .3s;
+	transition: .3s;	
+}
+
+
+.hover-effect,
+.hover-effect .caption-bg {
+	min-height: 250px;
+	overflow: hidden;
+}
+
+.service01 {
+		background-image: url(/wp-content/uploads/sites/1959/2016/09/sc2_img01_immunization.jpg);
+}
+.service02 {
+		background-image: url(/wp-content/uploads/sites/1959/2016/09/sc2_img02_medical-equipment.jpg);
+}
+.service03 {
+		background-image: url(/wp-content/uploads/sites/1959/2016/09/sc2_img03_RxSync.jpg);
+}
+.service04 {
+		background-image: url(/wp-content/uploads/sites/1959/2016/09/sc2_img04_free-diabetic-supplies.jpg);
+}
+.service05 {
+		background-image: url(/wp-content/uploads/sites/1959/2016/09/sc2_img05_womens-health.jpg);
+}
+.service06 {
+		background-image: url(/wp-content/uploads/sites/1959/2016/09/sc2_img06_free-kids-vitamins.jpg);
+}
+
+.hover-effect .caption {
+  left: 0;
+  padding: 0 40px;
+  position: absolute;
+  right: 0;
+  top: 35%;
+	z-index: 1;
+	p,span {
+		opacity: 0;
+	}
+	.btn-primary {
+		background-color: transparent;
+		border-color: #fff;
+		font-size: 18px;
+	}
+}
+
+.hover-effect .caption-bg {
+	background-color: #24aae0;
+	opacity: 0;
+	width: 100%;
+}
+
+.hover-effect:hover,
+.hover-effect:active,
+.hover-effect:focus {
+	.caption {
+		top: 10%;
+	}
+	.caption p,
+	.caption span {
+		opacity: 1;
+	}
+	.caption-bg {
+		opacity: 0.7;
+	}
+}
+
+.service04:hover .caption,
+.service04:active .caption,
+.service04:focus .caption {
+	top:0;
+}
